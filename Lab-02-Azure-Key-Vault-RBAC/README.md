@@ -30,3 +30,21 @@ Securely store and manage secrets in Azure Key Vault using Azure role-based acce
 ## Security Note
 
 No secret values, passwords, subscription IDs, tenant IDs, or personal account information are included in this repository.
+
+## Screenshots
+
+### 1. Azure Key Vault Overview
+
+![Azure Key Vault overview](screenshots/01-key-vault-overview.png)
+
+### 2. RBAC Role Assignments
+
+![Key Vault RBAC role assignments](screenshots/02-key-vault-rbac-role-assignments.png)
+
+### 3. Secret Created
+
+![Key Vault secret created](screenshots/03-key-vault-secret-created.png)
+
+### 4. Secret Versioning
+
+![Key Vault secret versioning](screenshots/04-key-vault-secret-versioning.png)
