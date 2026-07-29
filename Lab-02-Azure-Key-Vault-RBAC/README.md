@@ -35,16 +35,16 @@ No secret values, passwords, subscription IDs, tenant IDs, or personal account i
 
 ### 1. Azure Key Vault Overview
 
-![Azure Key Vault overview](screenshots/01-key-vault-overview.png)
+![Azure Key Vault overview](screenshots/key-vault-overview.png)
 
 ### 2. RBAC Role Assignments
 
-![Key Vault RBAC role assignments](screenshots/02-key-vault-rbac-role-assignments.png)
+![Key Vault RBAC role assignments](screenshots/key-vault-rbac-role-assignments.png)
 
 ### 3. Secret Created
 
-![Key Vault secret created](screenshots/03-key-vault-secret-created.png)
+![Key Vault secret created](screenshots/key-vault-secret-created.png)
 
 ### 4. Secret Versioning
 
-![Key Vault secret versioning](screenshots/04-key-vault-secret-versioning.png)
+![Key Vault secret versioning](screenshots/key-vault-secret-versioning.png)
