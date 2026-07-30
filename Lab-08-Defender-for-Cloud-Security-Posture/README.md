@@ -2,7 +2,7 @@
 
 ## Objective
 
-Review the security posture capabilities available through Microsoft Defender for Cloud and confirm that Foundational CSPM is enabled for the Azure subscription.
+Review Microsoft Defender for Cloud posture-management capabilities and confirm that Foundational CSPM is active for the Azure subscription.
 
 ## Resources Used
 
@@ -15,24 +15,25 @@ Review the security posture capabilities available through Microsoft Defender fo
 ## What I Reviewed
 
 1. Opened Microsoft Defender for Cloud.
-2. Reviewed the subscription environment settings.
-3. Confirmed that Foundational CSPM was enabled.
-4. Confirmed that the plan was operating with free pricing and full monitoring coverage.
-5. Kept the paid Defender CSPM and workload protection plans disabled.
-6. Opened the Recommendations page and checked all recommendation statuses.
+2. Reviewed the Defender plans for the `SC-500 Lab` subscription.
+3. Confirmed that Foundational CSPM was active.
+4. Confirmed free pricing and full monitoring coverage.
+5. Kept Defender CSPM and all paid workload-protection plans disabled.
+6. Opened the Recommendations page.
+7. Confirmed that all recommendation-status filters were selected.
 
 ## Defender for Cloud Configuration
 
 - **Subscription:** `SC-500 Lab`
-- **Foundational CSPM:** Enabled
+- **Foundational CSPM:** Active
 - **Pricing:** Free
 - **Monitoring coverage:** Full
 - **Defender CSPM:** Disabled
-- **Paid workload protection plans:** Disabled
+- **Paid workload-protection plans:** Disabled
 
 ## Security Posture Concept
 
-Microsoft Defender for Cloud continuously assesses Azure resources against security controls and generates:
+Microsoft Defender for Cloud evaluates Azure resources against security controls and can provide:
 
 - Secure Score
 - Security recommendations
@@ -43,9 +44,9 @@ Foundational CSPM provides the basic posture-management capabilities without req
 
 ## Current Assessment Status
 
-At the time of this lab, Defender for Cloud had not yet completed its initial assessment of the newly created resources.
+At the time of this lab, Defender for Cloud had not yet produced recommendations for the newly created Azure resources.
 
-The Recommendations page showed no results even though all status filters were selected.
+The Recommendations page showed no findings even though all status filters were selected.
 
 Because no recommendation was available, no remediation was performed during this lab.
 
@@ -55,12 +56,12 @@ Because no recommendation was available, no remediation was performed during thi
 
 ![Foundational CSPM Enabled](screenshots/01-foundational-cspm-enabled.png)
 
-### 2. Recommendations Assessment Pending
+### 2. No Recommendations Yet
 
-![Recommendations Assessment Pending](screenshots/02-no-recommendations-yet.png)
+![No Recommendations Yet](screenshots/02-no-recommendations-yet.png)
 
 ## Outcome
 
-Foundational CSPM was confirmed as enabled with free full monitoring coverage.
+Foundational CSPM was confirmed as active with free full monitoring coverage.
 
-The subscription was successfully onboarded to Microsoft Defender for Cloud, but the initial security assessment was still pending at the time of documentation.
+The subscription was onboarded to Microsoft Defender for Cloud, but no security recommendations were available at the time of documentation.
