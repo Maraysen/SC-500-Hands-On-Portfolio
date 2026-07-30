@@ -31,7 +31,6 @@ Configure Azure Key Vault diagnostic logging, send audit events to a Log Analyti
 - **Log category:** `Audit Logs`
 - **Destination:** `law-sc500-lab`
 - **Region:** `Australia East`
-
 ## KQL Query
 
 ```kusto
@@ -40,6 +39,7 @@ AzureDiagnostics
 | project TimeGenerated, OperationName, ResultType, Category, Resource
 | sort by TimeGenerated desc
 | take 20
+```
 
 ## Screenshots
 
@@ -54,3 +54,6 @@ AzureDiagnostics
 ### 3. Key Vault Alert Rule Design
 
 ![Key Vault Alert Rule Design](screenshots/03-key-vault-alert-rule-design.png)
+
+
+
