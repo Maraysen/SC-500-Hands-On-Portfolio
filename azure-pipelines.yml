@@ -12,3 +12,6 @@ steps:
 
 - script: terraform version
   displayName: 'Check Terraform version'
+
+- script: terraform fmt -check -recursive
+  displayName: 'Check Terraform formatting'
